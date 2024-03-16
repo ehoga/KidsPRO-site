@@ -1,0 +1,45 @@
+.section {
+    background-color: #283A76;
+    height: 45.625rem;
+    border-bottom: 0.625rem solid black;
+    padding-top: 3.125rem;
+}
+
+.section table, th, td{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    color:#FFF;
+    font-family: "Fira Code";
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.section .text{
+    color:#FFF;
+    font-family: "Fira Code";
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#textformat {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.section .text {
+    margin-top: 80px;
+}
+
+.section.-games{
+    background: #98182B;
+    padding-top: 3.125rem;
+    border-bottom: 0.625rem solid #3A4042;
+}

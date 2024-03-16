@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6356E4;
+    border-bottom: 10px solid black;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+
+#logo{
+    box-shadow: -5px -2px 0px black;
+}
+
+.header .list-header{
+    display: inline;
+}
+
+.header .list-header:last-of-type .action{
+    margin-right: 0rem;
+}
+
+

@@ -1,0 +1,27 @@
+.card{
+    background-color: black;
+    height: 32.5rem;
+    border-bottom: 0.625rem solid #98182B;
+    text-align: center;
+    padding-top: 3.125rem;
+}
+
+.card .card-fotos{
+    display: inline-block;
+    margin: 3.125rem 4.875rem 0rem;
+}
+
+.card img{
+    box-shadow: 0.625rem 0.625rem 0rem white;
+}
+
+.card .legendas{
+    color: #FFF;
+
+    font-family: "Press Start 2P";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2.125rem;
+}

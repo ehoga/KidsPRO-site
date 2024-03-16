@@ -1,0 +1,28 @@
+.title{
+    color: #6356E4;
+    text-shadow: 0.25rem 0.25rem 0rem #000;
+
+    font-family: "Press Start 2P";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title.-second{
+    color: white;
+    text-shadow: none;
+    text-align: center;
+}
+
+.subtitle{
+    color: #FFF;
+    text-align: center;
+    text-shadow: 4px 4px 0px #000;
+
+    font-family: "Press Start 2P";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

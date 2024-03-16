@@ -1,0 +1,29 @@
+.banner {
+    background-image: url(../../assets/img/wallpaperprinc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50.4375rem;
+    border-bottom: 0.625rem solid black;
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 39.375rem;
+}
+
+.banner .box {
+    margin-bottom: 2.375rem;
+    margin-left: 5.688rem;
+    margin-top: 7.25rem;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 11.313rem;
+}
+
+.banner .navigation .button:last-child {
+    margin-left: 6.688rem;
+}

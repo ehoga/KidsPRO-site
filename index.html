@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title lang="en">KidsPRO</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="icon/icon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/componentes/action.css">
+    <link rel="stylesheet" href="css/componentes/banner.css">
+    <link rel="stylesheet" href="css/componentes/box.css">
+    <link rel="stylesheet" href="css/componentes/button.css">
+    <link rel="stylesheet" href="css/componentes/title.css">
+    <link rel="stylesheet" href="css/componentes/header.css">
+    <link rel="stylesheet" href="css/componentes/section.css">
+    <link rel="stylesheet" href="css/componentes/card.css">
+    <link rel="stylesheet" href="css/componentes/container-jogos.css">
+    <link rel="stylesheet" href="css/componentes/form.css">
+    <link rel="stylesheet" href="css/componentes/footer.css">
+
+</head>
+<body>
+    <header class="header">
+        <img id="logo" src="assets/img/logo.png">
+    
+        <nav>
+            <ul>
+                <li class="list-header"><a class="action" href="#sobre">Sobre</a></li>
+                <li class="list-header"><a class="action" href="#treinadores">Treinadores</a></li>
+                <li class="list-header"><a class="action" href="#jogos">Jogos</a></li>
+                <li class="list-header"><a class="action" href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>        
+    </header>
+
+    <section class="banner">
+        <div class="wrapper">
+            <div class="box">
+                <h1 class="title">Kids PRO</h1>
+                <h2 class="subtitle">Videogame para <br>jovens</h2>
+            </div>
+            
+            <div class="navigation">
+                <a class="button" href="#sobre">Sobre</a>
+                <a class="button" href="https://youtu.be/ypH95fDolFk?si=zkhj4iL02g1Chhhx">Aulas</a>
+            </div>   
+        </div>       
+    </section>   
+    
+    <section id="sobre" class="section">
+        <h1 class="title -second">Sobre</h1>
+        <div id="textformat">
+            <p class="text">Hoje, cada vez mais crianças e adolescentes estão inseridas no mundo dos games, e com essa ascensão, diversos jovens pretendem empenhar-se para jogar profissionalmente. Logo, com a plataforma da KidsPRO, pretendemos oferecer uma série de videoaulas e tutorias personalizadas, com nomes referências do e-sport, para facilitar o caminho destes jovens interessados no universo dos jogos eletrônicos. Logo abaixo temos uma tabela com algum dos nossos parceiros e os titulos que ja venceram!</p>
+        </div>
+        <table>
+            <tr>
+                <th>Jogo</th>
+                <th>Treinador</th>
+                <th>Titulos</th>
+            </tr>
+            <tr>
+                <td>Counter Strike 2</td>
+                <td>Fallen</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>Valorant</td>
+                <td>Aspas</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>League of Legends</td>
+                <td>Minerva</td>
+                <td>20</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="treinadores" class="card">
+        <h1 class="title -second">Treinadores</h1>
+
+        <figure class="card-fotos">
+            <img src="assets/img/fallen.png" alt="Imagem Fallen">
+            <figcaption class="legendas">Fallen</figcaption>
+        </figure>
+        <figure class="card-fotos">
+            <img src="assets/img/aspas.png" alt="Imagem Aspas">
+            <figcaption class="legendas">Aspas</figcaption>
+        </figure>
+        <figure class="card-fotos">
+            <img src="assets/img/minerva.png" alt="Imagem Minerva">
+            <figcaption class="legendas">Minerva</figcaption>
+        </figure>
+    </section>
+
+    <section id="jogos" class="section -games">
+        <h1 class="title -second">Jogos</h1>
+        <div class="container-jogos">
+            <div class="coluna-esquerda">
+                <div class="conjunto-jogo">
+                    <img src="assets/img/vl.png" alt="">
+                    <p class="nome-jogo">Valorant</p>
+                </div>
+                <div class="conjunto-jogo">
+                    <img src="assets/img/lol.png" alt="">
+                    <p class="nome-jogo">League of Legends</p>
+                </div>
+            </div>
+            
+            <div class="coluna-direita">
+                <div class="conjunto-jogo">
+                    <img src="assets/img/cs.png" alt="">
+                    <p class="nome-jogo">Counter Strike 2</p>
+                </div>
+                <div class="conjunto-jogo">
+                    <img src="assets/img/r6.png" alt="">
+                    <p class="nome-jogo">Rainbow Six</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <form id="contatos" class="form">
+        <legend class="title -second">Contatos</legend>
+        
+        <label class="label-form" for="name">Nome</label>
+        <input class="barra-input" id="name" type="text" required>
+
+        <label class="label-form" for="email">Email</label>
+        <input class="barra-input" id="email" type="email" required>
+
+        <label class="label-form" for="message">Mensagem</label>
+        <textarea class="barra-input -textarea" id="message" required></textarea>
+
+        <button class="button -form" type="submit">Enviar</button>
+    </form>
+
+    <footer>
+        <div class="footer-div"></div>
+    </footer>
+
+</body>
+</html>
