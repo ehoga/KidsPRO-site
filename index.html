@@ -14,30 +14,45 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/componentes/action.css">
     <link rel="stylesheet" href="css/componentes/banner.css">
-    <link rel="stylesheet" href="css/componentes/box.css">
     <link rel="stylesheet" href="css/componentes/button.css">
     <link rel="stylesheet" href="css/componentes/title.css">
     <link rel="stylesheet" href="css/componentes/header.css">
     <link rel="stylesheet" href="css/componentes/section.css">
     <link rel="stylesheet" href="css/componentes/card.css">
-    <link rel="stylesheet" href="css/componentes/container-jogos.css">
+    <link rel="stylesheet" href="css/componentes/jogos.css">
     <link rel="stylesheet" href="css/componentes/form.css">
     <link rel="stylesheet" href="css/componentes/footer.css">
 
 </head>
 <body>
     <header class="header">
-        <img id="logo" src="assets/img/logo.png">
-    
-        <nav>
+        <nav class="nav-bar">
+            <img id="logo" src="assets/img/logo.png">
+            <div class="nav-list">
+                <ul>
+                    <li class="list-header"><a class="action" href="#sobre">Sobre</a></li>
+                    <li class="list-header"><a class="action" href="#treinadores">Treinadores</a></li>
+                    <li class="list-header"><a class="action" href="#jogos">Jogos</a></li>
+                    <li class="list-header"><a class="action" href="#contatos">Contatos</a></li>
+                </ul>
+            </div>
+            
+            <div class="menu-icon">
+                <button onclick="menuShow()"><img class="menu-ico-imag" src="assets/img/menu.svg"></button>
+            </div>
+        </nav>
+        
+        <div class="menu">
             <ul>
-                <li class="list-header"><a class="action" href="#sobre">Sobre</a></li>
-                <li class="list-header"><a class="action" href="#treinadores">Treinadores</a></li>
-                <li class="list-header"><a class="action" href="#jogos">Jogos</a></li>
-                <li class="list-header"><a class="action" href="#contatos">Contatos</a></li>
+                <li class="list-header"><a class="action -second" href="#sobre">Sobre</a></li>
+                <li class="list-header"><a class="action -second" href="#treinadores">Treinadores</a></li>
+                <li class="list-header"><a class="action -second" href="#jogos">Jogos</a></li>
+                <li class="list-header"><a class="action -second" href="#contatos">Contatos</a></li>
             </ul>
-        </nav>        
+        </div>
     </header>
+
+    <script src="js/script.js"></script>
 
     <section class="banner">
         <div class="wrapper">
@@ -58,28 +73,30 @@
         <div id="textformat">
             <p class="text">Hoje, cada vez mais crianças e adolescentes estão inseridas no mundo dos games, e com essa ascensão, diversos jovens pretendem empenhar-se para jogar profissionalmente. Logo, com a plataforma da KidsPRO, pretendemos oferecer uma série de videoaulas e tutorias personalizadas, com nomes referências do e-sport, para facilitar o caminho destes jovens interessados no universo dos jogos eletrônicos. Logo abaixo temos uma tabela com algum dos nossos parceiros e os titulos que ja venceram!</p>
         </div>
-        <table>
-            <tr>
-                <th>Jogo</th>
-                <th>Treinador</th>
-                <th>Titulos</th>
-            </tr>
-            <tr>
-                <td>Counter Strike 2</td>
-                <td>Fallen</td>
-                <td>32</td>
-            </tr>
-            <tr>
-                <td>Valorant</td>
-                <td>Aspas</td>
-                <td>12</td>
-            </tr>
-            <tr>
-                <td>League of Legends</td>
-                <td>Minerva</td>
-                <td>20</td>
-            </tr>
-        </table>
+        <div class="table-div">
+            <table>
+                <tr>
+                    <th>Jogo</th>
+                    <th>Treinador</th>
+                    <th>Titulos</th>
+                </tr>
+                <tr>
+                    <td>Counter Strike 2</td>
+                    <td>Fallen</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>Valorant</td>
+                    <td>Aspas</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>League of Legends</td>
+                    <td>Minerva</td>
+                    <td>20</td>
+                </tr>
+            </table>
+        </div>
     </section>
 
     <section id="treinadores" class="card">
@@ -142,7 +159,10 @@
     </form>
 
     <footer>
-        <div class="footer-div"></div>
+        <div class="footer-div">
+            <p>Feito por: Gabriel Arthur Gomes dos Santos</p>
+            <a href="https://github.com/ehoga/KidsPRO-site">GitHub</a>
+        </div>
     </footer>
 
 </body>

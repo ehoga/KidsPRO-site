@@ -1,4 +1,4 @@
-.action{
+.action {
     display: inline-flex;
     align-items: center;
     color: #FFF;
@@ -11,10 +11,18 @@
     margin-right: 3.9375rem;
 }
 
-.action::before{
+.action::before {
     content: "";
     background-color: black;
-    width: 0.625rem;
-    height: 0.625rem;
+    width: 10px;
+    height: 10px;
     margin-right: 0.625rem;
+}
+
+.action.-second::before {
+    content: none;
+}
+
+.action.-second {
+    margin: 0;
 }

@@ -1,9 +1,9 @@
 .card{
     background-color: black;
-    height: 32.5rem;
     border-bottom: 0.625rem solid #98182B;
     text-align: center;
     padding-top: 3.125rem;
+    padding-bottom: 4.375rem;
 }
 
 .card .card-fotos{
@@ -12,10 +12,12 @@
 }
 
 .card img{
+    max-width: 100%;
+    border-radius: 0.5rem;
     box-shadow: 0.625rem 0.625rem 0rem white;
 }
 
-.card .legendas{
+.legendas{
     color: #FFF;
 
     font-family: "Press Start 2P";
@@ -24,4 +26,21 @@
     font-weight: 400;
     line-height: normal;
     margin-top: 2.125rem;
+}
+
+@media screen and (max-width: 768px) {
+    .card .card-fotos {
+        align-items: center;
+        padding: 0;
+        margin: 3.125rem 0 0;
+    }
+
+    .card img {
+        max-width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .legendas{
+        font-size: 2rem;
+    }
 }

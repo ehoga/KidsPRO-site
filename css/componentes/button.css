@@ -2,10 +2,12 @@
     font-family: "Fira Code";
     display: inline-block;
     background-color: #6356E4;
+    border-radius: 0.5rem;
     box-shadow: 0.3125rem 0.3125rem 0rem 0rem #000;
     padding: 1.0625rem 3.125rem;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .button.-form {

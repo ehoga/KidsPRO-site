@@ -1,32 +1,44 @@
 .section {
     background-color: #283A76;
-    height: 45.625rem;
     border-bottom: 0.625rem solid black;
     padding-top: 3.125rem;
+    padding-bottom: 6.875rem;
 }
 
-.section table, th, td{
-    width: 1000px;
+.table-div {
+    max-width: 1000px;
     margin: auto;
-    margin-top: 50px;
-    color:#FFF;
-    font-family: "Fira Code";
-    font-size: 1.875rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid black;
 }
 
-.section .text{
+.section table {
+    width: 100%;
+    table-layout: fixed;
+    margin-top: 3.125rem;
     color:#FFF;
     font-family: "Fira Code";
     font-size: 1.875rem;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    padding: 0.625rem;
+    text-align: center;
+    border: 0.125rem solid black;
+}
+
+.section td, th {
+    padding: 0.625rem;
+    text-align: center;
+    border: 0.125rem solid black;
+}
+
+.text{
+    color:#FFF;
+    font-family: "Fira Code";
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 5rem;
 }
 
 #textformat {
@@ -34,12 +46,23 @@
     margin-right: 5rem;
 }
 
-.section .text {
-    margin-top: 80px;
-}
-
 .section.-games{
     background: #98182B;
     padding-top: 3.125rem;
     border-bottom: 0.625rem solid #3A4042;
+}
+
+@media screen and (max-width: 768px) {
+    .section th, td {
+        font-size: 1rem;
+    }
+    .table-div {
+        padding: 0 2rem;
+    }
+    .text {
+        font-size: 1.7rem;
+    }
+    #textformat {
+        margin: 0 2.5rem;
+    }
 }
