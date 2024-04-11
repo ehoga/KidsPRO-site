@@ -1,0 +1,47 @@
+.banner {
+    background-image: url(../../assets/img/wallpaperprinc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 807px;
+    border-bottom: 0.625rem solid black;
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 630px;
+    padding-left: 5.688rem;
+    padding-top: 7.25rem;
+}
+
+.banner .box {
+    margin-bottom: 2.375rem;
+}
+
+.box{
+    background: #3A4042;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding-bottom: 1.1875rem;
+    box-shadow: 0.625rem 0.625rem 0rem black;
+    text-align: center;
+}
+
+.box .title {
+    margin-top: 2.625rem;
+    margin-bottom: 1.438rem;
+}
+
+.banner .navigation {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .banner .wrapper {
+        padding: 2rem;
+        margin: auto;
+    }
+}

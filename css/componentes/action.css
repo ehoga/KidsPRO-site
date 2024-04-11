@@ -1,0 +1,28 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-family: "Fira Code";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 3.9375rem;
+}
+
+.action::before {
+    content: "";
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    margin-right: 0.625rem;
+}
+
+.action.-second::before {
+    content: none;
+}
+
+.action.-second {
+    margin: 0;
+}

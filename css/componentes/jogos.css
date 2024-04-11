@@ -1,0 +1,56 @@
+.container-jogos {
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    padding: 6.5625rem 0;
+    grid-gap: 12rem 15vw;
+}
+
+.conjunto-jogo {
+    display: flex;
+}
+
+.conjunto-jogo img {
+    max-width: 100%;
+}
+
+.nome-jogo {
+    color: #FFF;
+
+    font-family: "Press Start 2P";
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 0.3125rem;
+    margin-left: 1.6875rem;
+}
+
+#lol {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .container-jogos {
+        grid-template-columns: 1fr;
+        gap: 4rem 15vw;
+    }
+
+    .conjunto-jogo{
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+
+    .nome-jogo{
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        margin-left: 0;
+        text-align: center;
+    }
+}
